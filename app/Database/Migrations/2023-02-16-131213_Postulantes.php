@@ -3,6 +3,8 @@
 namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
+use CodeIgniter\Database\RawSql;
+
 
 class Postulantes extends Migration
 {
@@ -53,23 +55,17 @@ class Postulantes extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '200',
             ],
-            'created_at' => array('type' => 'timestamp'),
-
-
-
-
-
+            'created_at' => [
+                'type'    => 'TIMESTAMP',
+                'default' => new RawSql('CURRENT_TIMESTAMP'),
+            ],
          ]);
          $this->forge->addKey('id', true);
-         $this->forge->createTable('EstadoCivil');
-
-
-
-
+         $this->forge->createTable('Postulantes');        
     }
 
     public function down()
     {
-        //
+        $this->forge->dropTable('Postulantes');
     }
 }
