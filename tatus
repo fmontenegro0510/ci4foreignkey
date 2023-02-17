@@ -1,0 +1,23 @@
+[33mcommit 21bac88f9c92152543cd23593f8143b51d936407[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Francisco Montenegro <franciscomontenegro22@gmail.com>
+Date:   Thu Feb 16 11:20:36 2023 -0300
+
+    added migration emails
+
+[33mcommit 57325b4b91abaf572f274a119f45cb33a77bff32[m
+Author: Francisco Montenegro <franciscomontenegro22@gmail.com>
+Date:   Thu Feb 16 10:40:29 2023 -0300
+
+    remove migration estadoCivil, added migration Postulantes
+
+[33mcommit 7ec883cda0fdec540554eb6ccfd9aa1a6370f7de[m
+Author: Francisco Montenegro <franciscomontenegro22@gmail.com>
+Date:   Thu Feb 16 10:10:30 2023 -0300
+
+    added migration EstadoCivil
+
+[33mcommit 00a54910fdba0bb95173c77fb88a80faa3b09860[m
+Author: Francisco Montenegro <franciscomontenegro22@gmail.com>
+Date:   Thu Feb 16 10:05:03 2023 -0300
+
+    first install ci4

@@ -38,10 +38,6 @@ class Postulantes extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => '200',
             ],
-            'email' => [
-                'type' => 'VARCHAR',
-                'constraint' => '200',
-            ],
             'urlfoto' => [
                 'type' => 'VARCHAR',
                 'constraint' => '200',
