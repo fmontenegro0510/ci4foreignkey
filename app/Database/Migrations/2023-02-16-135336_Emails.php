@@ -25,11 +25,7 @@ class Emails extends Migration
                 'type' => 'INT',
                 'constraint' => 5,
                 'unsigned' => true,
-            ],
-            'created_at' => [
-                'type'    => 'TIMESTAMP',
-                'default' => new RawSql('CURRENT_TIMESTAMP'),
-            ],
+            ]
          ]);
          $this->forge->addKey('id', true);
          $this->forge->addForeignKey('id_postulante', 'Postulantes', 'id', 'CASCADE', 'CASCADE');
